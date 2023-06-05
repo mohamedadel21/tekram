@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tekram</string>
+    <string name="freshchat_file_provider_authority">com.tekram_mobile</string>
+
+</resources>

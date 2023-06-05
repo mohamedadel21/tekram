@@ -1,0 +1,814 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tekram"
+4    android:versionCode="4"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:5:5-81
+12-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+15-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:8:5-85
+15-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:8:22-82
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:9:5-77
+16-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:9:22-75
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:10:5-79
+17-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[:react-native-community_netinfo] /Users/mohamed/tekram-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+18-->[:react-native-community_netinfo] /Users/mohamed/tekram-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+19-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+20-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+21-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+26
+27    <queries>
+27-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+28
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+33-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+34-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+35
+36    <application
+36-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:12:5-44:19
+37        android:name="com.tekram.MainApplication"
+37-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:13:7-48
+38        android:allowBackup="false"
+38-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:18:7-34
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.7.0] /Users/mohamed/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:15:7-41
+41        android:label="@string/app_name"
+41-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:14:7-39
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:17:9-54
+43        android:theme="@style/AppTheme"
+43-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:19:7-38
+44        android:usesCleartextTraffic="true" >
+44-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:16:9-44
+45        <meta-data
+45-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:20:8-22:63
+46            android:name="com.google.android.geo.API_KEY"
+46-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:21:6-51
+47            android:value="AIzaSyAv0zTFavJT9I6rvLufEodpCvtMkEkdIX8" />
+47-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:22:6-61
+48
+49        <activity
+49-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:23:7-34:18
+50            android:name="com.tekram.MainActivity"
+50-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:24:9-47
+51            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+51-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:26:9-118
+52            android:exported="true"
+52-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:29:9-32
+53            android:label="@string/app_name"
+53-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:25:9-41
+54            android:launchMode="singleTask"
+54-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:27:9-40
+55            android:windowSoftInputMode="adjustResize" >
+55-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:28:9-51
+56            <intent-filter>
+56-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:30:9-33:25
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:31:13-65
+57-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:31:21-62
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:32:13-73
+59-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:32:23-70
+60            </intent-filter>
+61        </activity>
+62
+63        <provider
+63-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:35:9-43:20
+64            android:name="androidx.core.content.FileProvider"
+64-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:36:13-62
+65            android:authorities="com.tekram"
+65-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:37:13-45
+66            android:exported="false"
+66-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:38:13-37
+67            android:grantUriPermissions="true" >
+67-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:39:13-47
+68            <meta-data
+68-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:40:13-42:73
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:41:17-67
+70                android:resource="@xml/freshchat_file_provider_paths" />
+70-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:42:17-70
+71        </provider>
+72
+73        <service
+73-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+74            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+74-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+75            android:exported="false" />
+75-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+76        <service
+76-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+77            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+77-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+78            android:exported="false" >
+78-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+79            <intent-filter>
+79-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:29
+80                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+80-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-78
+80-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-75
+81            </intent-filter>
+82        </service>
+83
+84        <receiver
+84-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+85            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+85-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+86            android:exported="true"
+86-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+87            android:permission="com.google.android.c2dm.permission.SEND" >
+87-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+88            <intent-filter>
+88-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+89                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+89-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+89-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+90            </intent-filter>
+91        </receiver>
+92
+93        <meta-data
+93-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+94            android:name="firebase_messaging_auto_init_enabled"
+94-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+95            android:value="true" />
+95-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+96        <meta-data
+96-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-39:32
+97            android:name="com.google.firebase.messaging.default_notification_channel_id"
+97-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-89
+98            android:value="" />
+98-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-29
+99        <meta-data
+99-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+100            android:name="com.google.firebase.messaging.default_notification_color"
+100-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+101            android:resource="@color/white" />
+101-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+102        <meta-data
+102-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+103            android:name="app_data_collection_default_enabled"
+103-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+104            android:value="true" />
+104-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+105
+106        <service
+106-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+107            android:name="com.google.firebase.components.ComponentDiscoveryService"
+107-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+108            android:directBootAware="true"
+108-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+109            android:exported="false" >
+109-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+110            <meta-data
+110-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+111                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+111-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+114                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+114-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mohamed/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+117                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+117-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mohamed/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mohamed/.gradle/caches/transforms-3/3abcacf736d52bf07ee0ba3443937e3a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-installations:17.1.3] /Users/mohamed/.gradle/caches/transforms-3/762c158f170a08071c4ea111a9ba326e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+120                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+120-->[com.google.firebase:firebase-installations:17.1.3] /Users/mohamed/.gradle/caches/transforms-3/762c158f170a08071c4ea111a9ba326e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-installations:17.1.3] /Users/mohamed/.gradle/caches/transforms-3/762c158f170a08071c4ea111a9ba326e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+122        </service>
+123
+124        <provider
+124-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+125            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+125-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+126            android:authorities="com.tekram.reactnativefirebaseappinitprovider"
+126-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+127            android:exported="false"
+127-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+128            android:initOrder="99" />
+128-->[:react-native-firebase_app] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+129        <provider
+129-->[:react-native-image-picker] /Users/mohamed/tekram-app/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+130            android:name="com.imagepicker.ImagePickerProvider"
+130-->[:react-native-image-picker] /Users/mohamed/tekram-app/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+131            android:authorities="com.tekram.imagepickerprovider"
+131-->[:react-native-image-picker] /Users/mohamed/tekram-app/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+132            android:exported="false"
+132-->[:react-native-image-picker] /Users/mohamed/tekram-app/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+133            android:grantUriPermissions="true" >
+133-->[:react-native-image-picker] /Users/mohamed/tekram-app/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+134            <meta-data
+134-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:40:13-42:73
+135                android:name="android.support.FILE_PROVIDER_PATHS"
+135-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:41:17-67
+136                android:resource="@xml/imagepicker_provider_paths" />
+136-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:42:17-70
+137        </provider> <!-- A proxy-service that gives the library an opportunity to do some work before launching/resuming the actual application task. -->
+138        <service android:name="com.wix.reactnativenotifications.core.ProxyService" />
+138-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:12:9-86
+138-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:12:18-83
+139        <service
+139-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:13:9-20:19
+140            android:name="com.wix.reactnativenotifications.fcm.FcmInstanceIdListenerService"
+140-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:14:13-93
+141            android:exported="true" >
+141-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:15:13-36
+142            <intent-filter>
+142-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:16:13-19:29
+143                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+143-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-78
+143-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-75
+144                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+144-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:18:17-80
+144-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:18:25-77
+145            </intent-filter>
+146        </service>
+147        <service
+147-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:21:9-24:72
+148            android:name="com.wix.reactnativenotifications.fcm.FcmInstanceIdRefreshHandlerService"
+148-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:22:13-99
+149            android:exported="false"
+149-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:23:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" />
+150-->[:react-native-notifications] /Users/mohamed/tekram-app/node_modules/react-native-notifications/lib/android/app/build/intermediates/merged_manifest/reactNative60Release/AndroidManifest.xml:24:13-69
+151
+152        <provider
+152-->[:react-native-webview] /Users/mohamed/tekram-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+153            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+153-->[:react-native-webview] /Users/mohamed/tekram-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+154            android:authorities="com.tekram.fileprovider"
+154-->[:react-native-webview] /Users/mohamed/tekram-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+155            android:exported="false"
+155-->[:react-native-webview] /Users/mohamed/tekram-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+156            android:grantUriPermissions="true" >
+156-->[:react-native-webview] /Users/mohamed/tekram-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+157            <meta-data
+157-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:40:13-42:73
+158                android:name="android.support.FILE_PROVIDER_PATHS"
+158-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:41:17-67
+159                android:resource="@xml/file_provider_paths" />
+159-->/Users/mohamed/tekram-app/android/app/src/main/AndroidManifest.xml:42:17-70
+160        </provider>
+161
+162        <receiver
+162-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+163            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+163-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+164            android:exported="true"
+164-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+165            android:permission="com.google.android.c2dm.permission.SEND" >
+165-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+166            <intent-filter>
+166-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+167                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+167-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+167-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+168            </intent-filter>
+169        </receiver>
+170        <!--
+171             FirebaseMessagingService performs security checks at runtime,
+172             but set to not exported to explicitly avoid allowing another app to call it.
+173        -->
+174        <service
+174-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+175            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+175-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mohamed/.gradle/caches/transforms-3/7aed4846d7b89e3dc3991d6f9f55c7c4/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+178            <intent-filter android:priority="-500" >
+178-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:29
+179                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+179-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-78
+179-->[:react-native-firebase_messaging] /Users/mohamed/tekram-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-75
+180            </intent-filter>
+181        </service>
+182        <service
+182-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+183            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+183-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+184            android:exported="false" >
+184-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+185            <meta-data
+185-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+186                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+186-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+187                android:value="cct" />
+187-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/17d87b2052963216152f80911d5e07b3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+188        </service>
+189        <service
+189-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+190            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+190-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+191            android:exported="false"
+191-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+192            android:permission="android.permission.BIND_JOB_SERVICE" >
+192-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+193        </service>
+194
+195        <receiver
+195-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+196            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+196-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+197            android:exported="false" />
+197-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohamed/.gradle/caches/transforms-3/e4c28ab2af1372152f419d54549a3a10/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+198
+199        <provider
+199-->[com.google.firebase:firebase-common:20.3.2] /Users/mohamed/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+200            android:name="com.google.firebase.provider.FirebaseInitProvider"
+200-->[com.google.firebase:firebase-common:20.3.2] /Users/mohamed/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+201            android:authorities="com.tekram.firebaseinitprovider"
+201-->[com.google.firebase:firebase-common:20.3.2] /Users/mohamed/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+202            android:directBootAware="true"
+202-->[com.google.firebase:firebase-common:20.3.2] /Users/mohamed/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+203            android:exported="false"
+203-->[com.google.firebase:firebase-common:20.3.2] /Users/mohamed/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+204            android:initOrder="100" />
+204-->[com.google.firebase:firebase-common:20.3.2] /Users/mohamed/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+205
+206        <activity
+206-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:22:9-24:68
+207            android:name="com.freshchat.consumer.sdk.activity.ChannelListActivity"
+207-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:23:13-83
+208            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+208-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:24:13-65
+209        <activity
+209-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:25:9-29:57
+210            android:name="com.freshchat.consumer.sdk.activity.ConversationDetailActivity"
+210-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:26:13-90
+211            android:configChanges="orientation|screenSize|screenLayout"
+211-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:27:13-72
+212            android:theme="@style/Theme.Freshchat.SelectedTheme"
+212-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:28:13-65
+213            android:windowSoftInputMode="stateHidden" />
+213-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:29:13-54
+214        <activity
+214-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:30:9-33:68
+215            android:name="com.freshchat.consumer.sdk.activity.DeeplinkInterstitialActivity"
+215-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:31:13-92
+216            android:screenOrientation="portrait"
+216-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:32:13-49
+217            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+217-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:33:13-65
+218        <activity
+218-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:34:9-38:58
+219            android:name="com.freshchat.consumer.sdk.activity.PictureAttachmentActivity"
+219-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:35:13-89
+220            android:configChanges="orientation|screenSize"
+220-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:36:13-59
+221            android:theme="@style/Theme.Freshchat.SelectedTheme"
+221-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:37:13-65
+222            android:windowSoftInputMode="adjustResize" />
+222-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:38:13-55
+223        <activity
+223-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:39:9-41:68
+224            android:name="com.freshchat.consumer.sdk.activity.CategoryListActivity"
+224-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:40:13-84
+225            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+225-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:41:13-65
+226        <activity
+226-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:42:9-45:58
+227            android:name="com.freshchat.consumer.sdk.activity.ArticleListActivity"
+227-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:43:13-83
+228            android:theme="@style/Theme.Freshchat.SelectedTheme"
+228-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:44:13-65
+229            android:windowSoftInputMode="adjustResize" />
+229-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:45:13-55
+230        <activity
+230-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:46:9-48:68
+231            android:name="com.freshchat.consumer.sdk.activity.ArticleDetailActivity"
+231-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:47:13-85
+232            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+232-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:48:13-65
+233        <activity
+233-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:49:9-52:66
+234            android:name="com.freshchat.consumer.sdk.activity.InterstitialActivity"
+234-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:50:13-84
+235            android:configChanges="orientation|screenSize"
+235-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:51:13-59
+236            android:theme="@style/Freshchat.Theme.Transparent" />
+236-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:52:13-63
+237        <activity
+237-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:53:9-55:68
+238            android:name="com.freshchat.consumer.sdk.activity.BotFaqDetailsActivity"
+238-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:54:13-85
+239            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+239-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:55:13-65
+240
+241        <service android:name="com.freshchat.consumer.sdk.service.FreshchatService" />
+241-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:57:9-87
+241-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:57:18-84
+242
+243        <receiver
+243-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:59:9-67:20
+244            android:name="com.freshchat.consumer.sdk.receiver.FreshchatReceiver"
+244-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:60:13-81
+245            android:exported="false" >
+245-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:61:13-37
+246            <intent-filter>
+246-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:62:13-66:29
+247                <action android:name="android.intent.action.BOOT_COMPLETED" />
+247-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:63:17-79
+247-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:63:25-76
+248                <action android:name="android.intent.action.LOCALE_CHANGED" />
+248-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:64:17-79
+248-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:64:25-76
+249                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+249-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:65:17-84
+249-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:65:25-81
+250            </intent-filter>
+251        </receiver>
+252        <receiver
+252-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:68:9-74:20
+253            android:name="com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver"
+253-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:69:13-94
+254            android:exported="false" >
+254-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:70:13-37
+255            <intent-filter>
+255-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:71:13-73:29
+256                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+256-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:72:17-79
+256-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:72:25-76
+257            </intent-filter>
+258        </receiver>
+259
+260        <provider
+260-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:76:9-81:43
+261            android:name="com.freshchat.consumer.sdk.provider.FreshchatInitProvider"
+261-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:77:13-85
+262            android:authorities="com.tekram.freshchat.initprovider"
+262-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:78:13-74
+263            android:enabled="true"
+263-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:79:13-35
+264            android:exported="false"
+264-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:80:13-37
+265            android:multiprocess="true" />
+265-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:81:13-40
+266
+267        <activity
+267-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:83:9-86:68
+268            android:name="com.freshchat.consumer.sdk.activity.FAQCategoriesActivity"
+268-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:84:13-85
+269            android:configChanges="orientation|screenSize"
+269-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:85:13-59
+270            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+270-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:86:13-65
+271        <activity
+271-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:87:9-91:58
+272            android:name="com.freshchat.consumer.sdk.activity.FAQListActivity"
+272-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:88:13-79
+273            android:configChanges="orientation|screenSize"
+273-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:89:13-59
+274            android:theme="@style/Theme.Freshchat.SelectedTheme"
+274-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:90:13-65
+275            android:windowSoftInputMode="adjustResize" />
+275-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:91:13-55
+276        <activity
+276-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:92:9-95:68
+277            android:name="com.freshchat.consumer.sdk.activity.FAQDetailsActivity"
+277-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:93:13-82
+278            android:configChanges="orientation|screenSize"
+278-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:94:13-59
+279            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+279-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:95:13-65
+280        <activity
+280-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:96:9-100:58
+281            android:name="com.freshchat.consumer.sdk.activity.FAQSearchActivity"
+281-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:97:13-81
+282            android:configChanges="orientation|screenSize"
+282-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:98:13-59
+283            android:theme="@style/Theme.Freshchat.SelectedTheme"
+283-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:99:13-65
+284            android:windowSoftInputMode="adjustResize" />
+284-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:100:13-55
+285
+286        <provider
+286-->[com.squareup.picasso:picasso:2.8] /Users/mohamed/.gradle/caches/transforms-3/7bc9dcb9f42491208940d47b4850ec55/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+287            android:name="com.squareup.picasso.PicassoProvider"
+287-->[com.squareup.picasso:picasso:2.8] /Users/mohamed/.gradle/caches/transforms-3/7bc9dcb9f42491208940d47b4850ec55/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+288            android:authorities="com.tekram.com.squareup.picasso"
+288-->[com.squareup.picasso:picasso:2.8] /Users/mohamed/.gradle/caches/transforms-3/7bc9dcb9f42491208940d47b4850ec55/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+289            android:exported="false" />
+289-->[com.squareup.picasso:picasso:2.8] /Users/mohamed/.gradle/caches/transforms-3/7bc9dcb9f42491208940d47b4850ec55/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+290
+291        <activity
+291-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+292            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+292-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+293            android:excludeFromRecents="true"
+293-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+294            android:exported="false"
+294-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+295            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+295-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+296        <!--
+297            Service handling Google Sign-In user revocation. For apps that do not integrate with
+298            Google Sign-In, this service will never be started.
+299        -->
+300        <service
+300-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+301            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+301-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+302            android:exported="true"
+302-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+303            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+303-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+304            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+304-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mohamed/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+305        <uses-library
+305-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+306            android:name="org.apache.http.legacy"
+306-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+307            android:required="false" />
+307-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mohamed/.gradle/caches/transforms-3/e21ae7eeff71d7a5e5c06f971b9ad4e3/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+308
+309        <activity
+309-->[com.google.android.gms:play-services-base:18.1.0] /Users/mohamed/.gradle/caches/transforms-3/0fdde199ad6d5cd81bf5f7cf14de3789/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+310            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+310-->[com.google.android.gms:play-services-base:18.1.0] /Users/mohamed/.gradle/caches/transforms-3/0fdde199ad6d5cd81bf5f7cf14de3789/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+311            android:exported="false"
+311-->[com.google.android.gms:play-services-base:18.1.0] /Users/mohamed/.gradle/caches/transforms-3/0fdde199ad6d5cd81bf5f7cf14de3789/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+312            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+312-->[com.google.android.gms:play-services-base:18.1.0] /Users/mohamed/.gradle/caches/transforms-3/0fdde199ad6d5cd81bf5f7cf14de3789/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+313
+314        <provider
+314-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+315            android:name="androidx.startup.InitializationProvider"
+315-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+316            android:authorities="com.tekram.androidx-startup"
+316-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+317            android:exported="false" >
+317-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+318            <meta-data
+318-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+319                android:name="androidx.work.WorkManagerInitializer"
+319-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+320                android:value="androidx.startup" />
+320-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+321            <meta-data
+321-->[androidx.emoji2:emoji2:1.0.0] /Users/mohamed/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+322                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+322-->[androidx.emoji2:emoji2:1.0.0] /Users/mohamed/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+323                android:value="androidx.startup" />
+323-->[androidx.emoji2:emoji2:1.0.0] /Users/mohamed/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+324            <meta-data
+324-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohamed/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+325                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+325-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohamed/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+326                android:value="androidx.startup" />
+326-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohamed/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+327        </provider>
+328
+329        <service
+329-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+330            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+330-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+332            android:enabled="@bool/enable_system_alarm_service_default"
+332-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+333            android:exported="false" />
+333-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+334        <service
+334-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+335            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+335-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+336            android:directBootAware="false"
+336-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+337            android:enabled="@bool/enable_system_job_service_default"
+337-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+338            android:exported="true"
+338-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+339            android:permission="android.permission.BIND_JOB_SERVICE" />
+339-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+340        <service
+340-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+341            android:name="androidx.work.impl.foreground.SystemForegroundService"
+341-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+342            android:directBootAware="false"
+342-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+343            android:enabled="@bool/enable_system_foreground_service_default"
+343-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+344            android:exported="false" />
+344-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+345
+346        <receiver
+346-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+347            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+347-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+348            android:directBootAware="false"
+348-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+349            android:enabled="true"
+349-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+350            android:exported="false" />
+350-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+351        <receiver
+351-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+352            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+352-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+353            android:directBootAware="false"
+353-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+354            android:enabled="false"
+354-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+355            android:exported="false" >
+355-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+356            <intent-filter>
+356-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+357                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+357-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+357-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+358                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+358-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+358-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+359            </intent-filter>
+360        </receiver>
+361        <receiver
+361-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+362            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+362-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+363            android:directBootAware="false"
+363-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+364            android:enabled="false"
+364-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+365            android:exported="false" >
+365-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+366            <intent-filter>
+366-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+367                <action android:name="android.intent.action.BATTERY_OKAY" />
+367-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+367-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+368                <action android:name="android.intent.action.BATTERY_LOW" />
+368-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+368-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+369            </intent-filter>
+370        </receiver>
+371        <receiver
+371-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+372            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+372-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+373            android:directBootAware="false"
+373-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+374            android:enabled="false"
+374-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+375            android:exported="false" >
+375-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+376            <intent-filter>
+376-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+377                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+377-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+377-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+378                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+378-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+378-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+379            </intent-filter>
+380        </receiver>
+381        <receiver
+381-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+382            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+382-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+383            android:directBootAware="false"
+383-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+384            android:enabled="false"
+384-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+385            android:exported="false" >
+385-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+386            <intent-filter>
+386-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:71:13-73:29
+387                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+387-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:72:17-79
+387-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:72:25-76
+388            </intent-filter>
+389        </receiver>
+390        <receiver
+390-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+391            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+391-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+392            android:directBootAware="false"
+392-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+393            android:enabled="false"
+393-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+394            android:exported="false" >
+394-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+395            <intent-filter>
+395-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+396                <action android:name="android.intent.action.BOOT_COMPLETED" />
+396-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:63:17-79
+396-->[com.github.freshworks:freshchat-android:5.4.2] /Users/mohamed/.gradle/caches/transforms-3/26b1887314a795329a844a2e2ad6c90b/transformed/jetified-freshchat-android-5.4.2/AndroidManifest.xml:63:25-76
+397                <action android:name="android.intent.action.TIME_SET" />
+397-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+397-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+398                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+398-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+398-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+399            </intent-filter>
+400        </receiver>
+401        <receiver
+401-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+402            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+402-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+403            android:directBootAware="false"
+403-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+404            android:enabled="@bool/enable_system_alarm_service_default"
+404-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+405            android:exported="false" >
+405-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+406            <intent-filter>
+406-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+407                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+407-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+407-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+408            </intent-filter>
+409        </receiver>
+410        <receiver
+410-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+411            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+411-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+412            android:directBootAware="false"
+412-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+413            android:enabled="true"
+413-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+414            android:exported="true"
+414-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+415            android:permission="android.permission.DUMP" >
+415-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+416            <intent-filter>
+416-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+417                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+417-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+417-->[androidx.work:work-runtime:2.7.1] /Users/mohamed/.gradle/caches/transforms-3/90c52f61bc0a22c86a76f866c6332c4c/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+418            </intent-filter>
+419        </receiver>
+420
+421        <meta-data
+421-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mohamed/.gradle/caches/transforms-3/e08ba1b5c43b7f3021f878fd5432ea84/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+422            android:name="com.google.android.gms.version"
+422-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mohamed/.gradle/caches/transforms-3/e08ba1b5c43b7f3021f878fd5432ea84/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+423            android:value="@integer/google_play_services_version" />
+423-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mohamed/.gradle/caches/transforms-3/e08ba1b5c43b7f3021f878fd5432ea84/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+424
+425        <service
+425-->[androidx.room:room-runtime:2.2.5] /Users/mohamed/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+426            android:name="androidx.room.MultiInstanceInvalidationService"
+426-->[androidx.room:room-runtime:2.2.5] /Users/mohamed/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+427            android:directBootAware="true"
+427-->[androidx.room:room-runtime:2.2.5] /Users/mohamed/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+428            android:exported="false" />
+428-->[androidx.room:room-runtime:2.2.5] /Users/mohamed/.gradle/caches/transforms-3/8cb2b6dca618dcbdeb65e30a4b4b96aa/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+429    </application>
+430
+431</manifest>

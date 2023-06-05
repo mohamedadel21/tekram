@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "621476393816",
+    "project_id": "tekram-6cb85",
+    "storage_bucket": "tekram-6cb85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621476393816:android:e758fd01d6d411dd022b2d",
+        "android_client_info": {
+          "package_name": "com.tekram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621476393816-fmkpd7nsotpp1i2222bv2sdb8q6tdblf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4yHXjacvRNWRwdfQQeXFqyC0wQYn5VF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621476393816-fmkpd7nsotpp1i2222bv2sdb8q6tdblf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "621476393816-cq6dtep3dc80o40d896hn1uaghheoq5c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tekram.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

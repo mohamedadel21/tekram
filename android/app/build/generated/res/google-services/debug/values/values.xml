@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">621476393816-fmkpd7nsotpp1i2222bv2sdb8q6tdblf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">621476393816</string>
+    <string name="google_api_key" translatable="false">AIzaSyB4yHXjacvRNWRwdfQQeXFqyC0wQYn5VF0</string>
+    <string name="google_app_id" translatable="false">1:621476393816:android:e758fd01d6d411dd022b2d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB4yHXjacvRNWRwdfQQeXFqyC0wQYn5VF0</string>
+    <string name="google_storage_bucket" translatable="false">tekram-6cb85.appspot.com</string>
+    <string name="project_id" translatable="false">tekram-6cb85</string>
+</resources>

@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_currency.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_currency.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_google.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_google.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_no_orders.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_no_orders.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_onboarding1.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_onboarding1.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_favorite.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_favorite.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_logout.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_logout.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_defaultimage.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_defaultimage.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_camera.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_camera.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_mark.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_mark.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_bell.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_bell.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativepaper_src_assets_backchevron.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_bill.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_bill.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_info.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_info.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_no_notification.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_no_notification.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_motocycle.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_motocycle.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_user.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_user.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_close.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativecountrypickermodal_lib_assets_images_close.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_purse.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_purse.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_no_addresses.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_no_addresses.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_logo.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_logo.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_locationhand.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_locationhand.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_onboarding3.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_onboarding3.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-xhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_no_payments.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_no_payments.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_no_favourites.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_no_favourites.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_splash_icon.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_splash_icon.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_hand.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_hand.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_alarm.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_alarm.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_no_conexion.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_no_conexion.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_burger.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_burger.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_default.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_default.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_onboarding2.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_onboarding2.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_no_reviews.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_no_reviews.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_location.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_location.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-xxhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "/Users/mohamed/tekram-app/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_heart.png.flat",
+        "source": "/Users/mohamed/tekram-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_heart.png"
+    }
+]

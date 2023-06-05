@@ -1,0 +1,6 @@
+module Pods_tekram_tekramTests {
+  umbrella header "Pods-tekram-tekramTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
